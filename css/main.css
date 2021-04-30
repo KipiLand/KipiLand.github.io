@@ -24,6 +24,7 @@ p {
     padding: 5px;
     border-radius: 0 0 8px 8px;
     display: flex;
+    text-align: justify;
 }
 #title {
     margin-top: 80px;
@@ -73,6 +74,7 @@ p {
     display: flex;
     right: 0;
     background-image: url("../img/BGheader.png");
+    text-align: right;
 }
 img.logo {
     width: 58px;
