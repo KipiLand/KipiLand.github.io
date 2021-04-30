@@ -32,6 +32,8 @@ p {
     top: 0;
     right: 0;
     left: 0;
+    background-image: url("../img/BGheader.png");
+    display: flex;
 }
 #header2 {
     background-color: #362b6f;
@@ -40,6 +42,8 @@ p {
     height: 58px;
     top: 0;
     margin-left: 5%;
+    background-image: url("../img/BGheader.png");
+    display: flex;
 }
 #header3_left {
     background-color: #362b6f;
@@ -48,6 +52,7 @@ p {
     height: 58px;
     top: 0;
     display: flex;
+    background-image: url("../img/BGheader.png");
 }
 #header3_right {
     background-color: #362b6f;
@@ -57,6 +62,7 @@ p {
     top: 0;
     display: flex;
     right: 0;
+    background-image: url("../img/BGheader.png");
 }
 img.logo {
     width: 58px;
