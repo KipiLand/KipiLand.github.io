@@ -4,7 +4,7 @@
 }
 body {
     font-family: Exo, serif;
-    background-color: #18171c;
+    background-image: url("../img/background.png");
 }
 h1 {
     color: white;
@@ -17,12 +17,22 @@ p {
     color: white;
 }
 #main {
+    margin-top: 0px;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #3b3249;
+    padding: 5px;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+}
+#title {
     margin-top: 80px;
     margin-right: 5%;
     margin-left: 5%;
     background-color: #34323e;
     padding: 5px;
-    border-radius: 8px
+    border-radius: 8px 8px 0 0;
+    background-image: url("../img/BG.png");
 }
 #header1 {
     background-color: #362b6f;
@@ -92,4 +102,7 @@ a:hover {
 a:active {
     color: #735aff;
     text-decoration: none;
+}
+h1.head {
+    text-align: center;
 }
