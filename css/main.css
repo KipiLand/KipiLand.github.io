@@ -122,3 +122,9 @@ a:active {
 h1.head {
     text-align: center;
 }
+.discord {
+    color: #b1d0ff;
+}
+.mail {
+    color: #ab6fff;
+}
